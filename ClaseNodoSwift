@@ -1,0 +1,36 @@
+# ACT01Parcial2-Swift
+Clase nodo en Swift
+
+//  Write some awesome Swift code, or import libraries like "Foundation",
+//  "Dispatch", or "Glibc"
+ 
+//Angelica Fabiola Cervantes Andrade
+//A01410524
+//Estructura de Datos
+//Tarea01 Parcial2
+
+public class NodoClass {
+	
+	public var n: Int 
+	public NodoClass siguiente
+	public NodoClass anterior
+	
+	func NodoClass (){
+		self.n = 0
+		self.siguiente = null
+		self.anterior = null
+	}
+	
+	public func getN() -> Int {
+	return self.n }
+	public func setN (n: Int) {
+	self.n = n}
+	
+	
+	public func getSiguiente() -> Int{
+	return self.siguiente }
+	public func setSiguiente(siguiente : NULL) {
+	self.siguiente = siguiente }
+	
+	
+}
